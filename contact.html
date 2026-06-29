@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Forge Athletic Club</title>
+<meta name="description" content="Get in touch with Forge Athletic Club — visit the floor, ask a question, or book your intro session.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__row">
+    <img class="logo" src="alpha.jpg" width="40" height="40">
+    <a href="index.html" class="nav__logo">
+      <strong>ALPHA</strong>
+      <span>FITNESS</span>
+      
+    </a>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="pricing.html">Pricing</a></li>
+      <li><a href="trainers.html">Trainers</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="contact.html" class="btn btn--primary">Start Training</a>
+    </div>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Get In Touch</p>
+    <h1>Visit the floor</h1>
+   
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="reveal">
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-7.2-7-12a7 7 0 1 1 14 0c0 4.8-7 12-7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          <div>
+            <strong>Address</strong>
+            <span>Near Bank Of India, Karanjia, Odisha</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg>
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:+916370999905">+91 63709 99905</a>
+          </div>
+        </div>
+       <div class="info-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:afitness588@gmail.com">afitness588@gmail.com</a>
+          </div> 
+        </div>
+        
+
+        
+      </div>
+
+      <div class="card reveal">
+        <h3 style="margin-bottom:var(--space-5);text-transform:uppercase;">Send a message</h3>
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="c5eb20da-f541-48e6-bb4e-0ed880ff62cb">
+          <div class="field-row">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="phone">Phone </label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us about your goals or ask a question…"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+          <div class="form-status" id="form-status">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Message received — a coach will get back to you within 24 hours.</span>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <strong>ALPHA FITNESS</strong>
+        <p>A strength and conditioning facility for people who'd rather track plates than excuses. </p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li><span class="muted">Near Bank Of India, Karanjia, Odisha</span></li>
+          <li><a href="tel:+916370999905">+91 63709 99905</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; <span data-year></span> ALPHA FITNESS. All rights reserved.</span>
+     
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
